@@ -16,5 +16,5 @@ def word_count(value, output = 0):
     
     return output
 
-text = raw_input("Tell something: ")
+text = input("Tell something: ")
 print("Total words: {}".format(word_count(text)))
